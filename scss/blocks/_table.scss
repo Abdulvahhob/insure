@@ -1,0 +1,44 @@
+.table__table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 20px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border: 1px solid #000;
+}
+
+.table__check-cell {
+  width: 0;
+  padding: 0;
+  border: none !important;
+}
+
+.table__actions-wrapper {
+  position: relative;
+}
+
+.table__actions {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.table__delete-btn {
+  position: absolute;
+  left: 0; 
+  transform: translateX(-100%);
+}
+
+.table__caption {
+  caption-side: top;
+}

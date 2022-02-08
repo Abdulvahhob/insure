@@ -1,0 +1,21 @@
+@mixin remove-m-p {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset-list {
+  @include remove-m-p;
+  list-style: none;
+}
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@mixin bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

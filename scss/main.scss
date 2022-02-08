@@ -1,0 +1,68 @@
+@import "normalize";
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "general";
+@import "blocks/blocks";
+
+
+
+
+// .filter {
+//   padding: 26px 21px;
+//   width: 295px;
+//   border: 1px solid rgba(0, 0, 0, 0.3);
+//   margin: 0 auto;
+// }
+
+// .models-checks {
+//   margin-top: 20px;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .models-checks__label {
+//   width: calc((100% - 20px) / 2);
+//   margin-right: 20px;
+//   display: flex;
+//   align-items: center;
+// }
+
+// .models-checks__label:nth-child(2n) {
+//   margin-right: 0;
+// }
+
+// .models-checks__styled-checkbox {
+//   width: 14px;
+//   height: 14px;
+//   display: block;
+//   border: 1px solid #DADADA;
+//   margin-right: 15px;
+// }
+// .models-checks__checkbox:checked + .models-checks__styled-checkbox {
+//   background-color: #FF7931;
+//   border-color: #FF7931;
+// }
+
+// .sales-radios {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-bottom: -10px; 
+// }
+
+// .sales-radios__label {
+//   margin-right: 10px;
+//   margin-bottom: 10px;
+// }
+
+// .sales-radios__label-txt {
+//   padding: 6px 15px 8px;
+//   display: block;
+//   background-color: #F0F0F4;
+//   transition: 0.2s ease all;
+// }
+
+// .sales-radios__radio:checked + .sales-radios__label-txt {
+//   color: #fff;
+//   background: linear-gradient(91.1deg, #9710E9 1.17%, #FD8D43 99.31%);
+// }
